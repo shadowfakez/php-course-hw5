@@ -1,0 +1,4 @@
+[20-10-2021 00:36:49.000] - emergency - emergency message! - {"a":"test1","b":"test2","c":"test3"}
+[20-10-2021 00:36:49.000] - alert - alert message! - {"a":"test1","b":"test2","c":"test3"}
+[20-10-2021 00:36:49.000] - info - info message! - {"a":"test1","b":"test2","c":"test3"}
+[20-10-2021 00:36:49.000] - debug - debug message! - {"a":"test1","b":"test2","c":"test3"}
