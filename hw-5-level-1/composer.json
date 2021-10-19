@@ -1,0 +1,21 @@
+{
+    "name": "shadowfake/hw-5-level-1",
+    "description": "homework 5 level 1",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shadowfakez",
+            "email": "iamshadowfake@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/log": "3.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logger\\": "Logger"
+        }
+    }
+}

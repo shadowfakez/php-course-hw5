@@ -1,0 +1,21 @@
+[19-10-2021 22:46:54.000] - emergency - emergency message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:46:54.000] - alert - alert message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:46:54.000] - info - info message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:46:54.000] - debug - debug message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:28.000] - emergency - emergency message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:28.000] - alert - alert message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:28.000] - info - info message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:28.000] - debug - debug message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:41.000] - emergency - emergency message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:41.000] - alert - alert message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:41.000] - info - info message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 22:48:41.000] - debug - debug message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 23:18:27.000] - emergency - emergency message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 23:18:27.000] - alert - alert message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 23:18:27.000] - info - info message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 23:18:27.000] - debug - debug message! - {"a":"test1","b":"test2","c":"test3"}
+{"date":"19-10-2021 23:36:44.000","level":"emergency","message":"emergency message!","context":{"a":"test1","b":"test2","c":"test3"}}
+[19-10-2021 23:37:19.000] - emergency - emergency message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 23:37:19.000] - alert - alert message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 23:37:19.000] - info - info message! - {"a":"test1","b":"test2","c":"test3"}
+[19-10-2021 23:37:19.000] - debug - debug message! - {"a":"test1","b":"test2","c":"test3"}
