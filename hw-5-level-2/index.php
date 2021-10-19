@@ -2,14 +2,14 @@
 
 use Logger\DBWriter;
 use Logger\FileWriter;
-use Logger\Formatter;
+use Logger\StringFormatter;
 use Logger\Test;
 use Logger\Logger;
 use Logger\JsonFormatter;
 
 require_once 'vendor/autoload.php';
 $writer = new FileWriter();
-$formatter = new Formatter();
+$formatter = new StringFormatter();
 
 $test = new Test(new Logger($writer, $formatter));
 

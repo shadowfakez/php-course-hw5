@@ -2,7 +2,7 @@
 
 namespace Logger;
 
-class Formatter implements FormatterInterface
+class StringFormatter implements FormatterInterface
 {
 
     public function format($level, \Stringable|string $message, array $context = []): string

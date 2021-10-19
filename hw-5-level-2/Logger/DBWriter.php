@@ -16,7 +16,7 @@ class DBWriter implements WriterInterface
 
     protected string $column_name;
 
-    public function __construct($servername, $database, $username, $password, $table_name, $column_name)
+    public function __construct($servername, $username, $password, $database, $table_name, $column_name)
     {
         $this->servername = $servername;
         $this->database = $database;
@@ -34,7 +34,7 @@ class DBWriter implements WriterInterface
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $query = "INSERT INTO " . $this->table_name . " (" . $this->column_name . ") VALUES (" . $log . ")";
+        $query = "INSERT INTO " . $this->table_name . " (" . $this->column_name . ") VALUES ('" . $log . "')";
 
         if (mysqli_query($conn, $query)) {
             echo "New record created successfully";
